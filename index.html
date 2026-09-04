@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parallax Website</title>
+    <link rel="stylesheet" href="./src/master.css" />
+    <style></style>
+  </head>
+
+  <body>
+    <!--------- Hero------- -->
+    <div class="nav">
+      <span>islands</span>
+      <button class="menu-btn" id="menu-btn">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+        >
+          <path d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z"></path>
+        </svg>
+      </button>
+    </div>
+    <aside id="sidbar" class="sidbar">
+      <div>
+        <button class="close-btn" id="close-btn">
+          <i class="bi bi-x"></i>
+        </button>
+        <ul class="sidbar-links">
+          <li><a href="#">home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#project">project</a></li>
+          <li><a href="#blog">article</a></li>
+        </ul>
+      </div>
+    </aside>
+    <section class="hero">
+      <img class="layer layer-1" src="./src/img/img1.webp" alt="" />
+      <img class="layer layer-2" src="./src/img/img2.webp" alt="" />
+      <h1>Welcome</h1>
+      <img class="layer layer-3" src="./src/img/img3.webp" alt="" />
+      <img class="layer layer-4" src="./src/img/img4.webp" alt="" />
+    </section>
+  </body>
+  <script src="./src/script.js"></script>
+</html>
